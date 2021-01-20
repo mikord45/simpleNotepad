@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <h1>Notatnik</h1>
+        </div>
+        <div id="content">
+            <div id="addNote">
+                <form>
+                    <div class="oneInput">
+                        <label>Tytuł:</label><input type="text" name="title" id="title" />
+                    </div>
+                    <div class="oneInput">
+                        <label>Treść:</label><textarea id="contentText"></textarea>
+                    </div>
+                    <div class="oneInput">
+                        <label>Kolor:</label><input type="color" name="color" id="color" />
+                    </div>
+                    <div class="oneInput">
+                        <label>Ważne:</label><input type="checkbox" name="important" id="important" />
+                    </div>
+                    <div class="oneInput">
+                        <button id="add">DODAJ</button>
+                    </div>
+                </form>
+            </div>
+            <div id="notes">
+            </div>
+        </div>
+        <div id="error">
+            <h3></h3>
+        </div>
+        <div id="footer">
+            <h3>
+                Notatnik 2020
+            </h3>
+        </div>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>

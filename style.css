@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    background-color: #4abdac;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#header{
+    background-color: #fc4a1a;
+    transition: background-color 0.7s;
+    margin-bottom: 5vh;
+}
+
+#header:hover{
+    background-color: #ed8824;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#addNote{
+    flex: 1;
+    margin-right: 10%;
+}
+
+#addNote form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    width: 60px;
+}
+
+.oneInput{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+
+#notes{
+    flex:1;
+    margin-left: 10%;
+}
+
+.oneNote{
+    width: 70%;
+    opacity: 0.8;
+    transition: opacity, transform 0.7s;
+}
+
+.oneNote:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.oneNote h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.oneNote p{
+    padding: 10px
+}
+
+.oneNote button{
+    margin: 10px;
+    margin-top: 0px;
+}
+
+#error h3{
+    color: #c42e04;
+}
+
+h3{
+    text-align: center;
+}
